@@ -61,14 +61,6 @@ nav ul li a:hover{
     flex-wrap: wrap;
 
 }
-.col{
-    margin: 20px 0;
-    flex-basis: 50px;
-    min-width: 300px;
-    height: 100%;
-    position: relative;
-
-}
 
 .text-box{
     max-width: 400px;
@@ -81,21 +73,26 @@ nav ul li a:hover{
 }
 .text-box h1{
     font-size: 50px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    line-height: 65px;
+    font-family: sans-serif;
 
 }
-.gallery-box{
-    max-width: 400px;
-    position: relative;
-    margin: auto;
 
+.guns img{
+    border: 5px solid #555;
+    vertical-align: middle;
+    width: 255px;
+    height: 200px;
+    
 }
+
+
 .gallery-box img{
-    width: 100px;
-    border: 10px solid rgba (255,255,255,0.2);
-    box-sizing: border-box;
+    border: 5px solid #555;
+    vertical-align: middle;
+    width: 255px;
+    height: 200px;
+    
+
 }
 .gallery-box ul{
     position: absolute;

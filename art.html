@@ -22,48 +22,43 @@
        <div class="row">
         <div class="col">
            <div class="text-box">
-            <h5>our art</h5>
-            <h1>art beyond imagination</h1>
+            <h5>ART</h5>
+            <h1>MUSEUM</h1>
            </div>
-           
-           <div class="col">
             <div class="gallery-box">
-                <img src="images/car1.jpg">
+           <h1>vintage exotic cars</h1>
 
-                <ul>
-                   <li class="btn">art 1</li> 
-                   <li class="btn active">art 2</li> 
-                   <li class="btn">art 3</li> 
-                   <li class="btn">art 4</li> 
-                </ul>
+                <img src="images/car1.jpg">
+                <img src="images/car2.jpg">
+                <img src="images/car5.jpg">
+                <img src="images/car6.png">
+
             </div>
-           </div> 
+
+        <div class="guns">
+
+            <h2>Memorable statues</h2>
+
+            <img src="images/statue3.jpg">
+            <img src="images/statue2.jpg">
+            <img src="images/statues.jpg">
+            
+            <h3>world war 2 images</h3>
+
+            <img src="images/war1.jpg">
+            <img src="images/war2.jpg">
+            <img src="images/war3.jpg">
+            <img src="images/war4.jpg">
+            <img src="images/war5.jpg">
+            <img src="images/war6.jpg">
+            <img src="images/war7.jpg">
+            <img src="images/war8.jpg">
+
+
+
+        </div>
+
         </div>
        </div>
-
-<script>
-    let btn =document.getElementsByClassName("btn");
-    let gallery =document.getElementById("gallery");
-
-    let images = new Array(
-        "images/car5.jpg",
-        "images/gun2.jpg",
-        "images/future-waterfall.jpg",
-        "images/background.jpg",
-    );
-    
-    for(let i=0; i=btn.length; i++){
-        btn[i].onclick = fuction(){
-            gallery.src = images[i];
-            let current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace("active", "");
-            this.className += " active";
-        };
-    }
-
-             
-    
-</script>
-
 </body>
 </html>
