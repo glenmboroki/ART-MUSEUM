@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #22046b, #e14e42);
+    color: #fff;
+    position: relative;
+}
+
+
