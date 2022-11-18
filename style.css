@@ -111,5 +111,18 @@ nav ul li a:hover{
     padding: 0 30px;
     cursor: pointer;
     position: relative;
+
 }
-    
+
+.gallery-box .active{
+    color: #e7c82f;
+}
+.gallery-box ul li::after{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #e7c82f;
+    position: absolute;
+    top: 8px;
+    left: -5px;
+}
