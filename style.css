@@ -121,8 +121,11 @@ nav ul li a:hover{
     content: '';
     width: 30px;
     height: 2px;
-    background: #e7c82f;
+    background: transparent;
     position: absolute;
     top: 8px;
     left: -5px;
+}
+gallery-box .active::after{
+    background: #e7c82f ;
 }

@@ -25,6 +25,7 @@
             <h5>our art</h5>
             <h1>art beyond imagination</h1>
            </div>
+           
            <div class="col">
             <div class="gallery-box">
                 <img src="images/car1.jpg">
@@ -39,6 +40,30 @@
            </div> 
         </div>
        </div>
+
+<script>
+    let btn =document.getElementsByClassName("btn");
+    let gallery =document.getElementById("gallery");
+
+    let images = new Array(
+        "images/car5.jpg",
+        "images/gun2.jpg",
+        "images/future-waterfall.jpg",
+        "images/background.jpg",
+    );
+    
+    for(let i=0; i=btn.length; i++){
+        btn[i].onclick = fuction(){
+            gallery.src = images[i];
+            let current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace("active", "");
+            this.className += " active";
+        };
+    }
+
+             
+    
+</script>
 
 </body>
 </html>
