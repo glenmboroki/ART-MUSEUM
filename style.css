@@ -3,12 +3,44 @@
     padding: 0;
     font-family: sans-serif;
 }
-container{
+.container{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #22046b, #e14e42);
     color: #fff;
     position: relative;
 }
-
-
+.navbar{
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor:pointer ;
+    margin: 80px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+nav ul li a:hover{
+    color: #e7c82f;
+}
