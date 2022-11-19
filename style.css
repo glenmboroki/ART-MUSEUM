@@ -145,3 +145,9 @@ h6{
 gallery-box .active::after{
     background: #e7c82f ;
 }
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
