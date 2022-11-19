@@ -21,10 +21,10 @@
 
 }
 .logo{
-    width: 120px;
+    width: 90px;
     cursor: pointer;
-    shape-outside: circle(2);
-
+    border-radius: 50%;
+     
 }
 .menu-icon{
     width: 30px;
