@@ -23,6 +23,7 @@
 .logo{
     width: 120px;
     cursor: pointer;
+    shape-outside: circle(2);
 
 }
 .menu-icon{
@@ -67,18 +68,36 @@ nav ul li a:hover{
     margin-top: 100px;
 
 }
-.text-box h5{
-    color: #e7c82f
 
-}
 .text-box h1{
     font-size: 50px;
     font-family: sans-serif;
 
 }
+H1{
+    color: #e7c82f;
+}
+h2{
+    color: aqua;
+    font-family: monospace;
+    
+}
+h3{
+    color: aqua;
+    font-family: monospace;
+}
+h4{
+    color: aqua;
+    font-family: monospace;
+}
+h6{
+    color: aqua;
+    font-family: monospace;
+    font-size: large;
+}
 
 .guns img{
-    border: 5px solid #555;
+    border: 5px solid #e7c82f;
     vertical-align: middle;
     width: 255px;
     height: 200px;
@@ -87,7 +106,7 @@ nav ul li a:hover{
 
 
 .gallery-box img{
-    border: 5px solid #555;
+    border: 5px solid #e7c82f ;
     vertical-align: middle;
     width: 255px;
     height: 200px;
